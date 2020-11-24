@@ -1,12 +1,13 @@
 /**
  * 
  */
+package Trimestre_1;
 
 /**
  * @author CARLOS
  *
  */
-public class Proyecto {
+public class Proyecto_Isma_Carlos {
 
 	/**
 	 * @param args
