@@ -21,7 +21,6 @@ public class Proyecto_Isma_Carlos {
 		int columna;
 		int cimas=0;
 		int picos[];
-		int mayor=0;
 		int cimasm=0;
 		
 		
@@ -54,16 +53,9 @@ public class Proyecto_Isma_Carlos {
 				}
 			}
 		}
-		
-		if(cimas>0) {
-			for(int i=0; i<cimas; i++) {
-				if(picos[i]>mayor) {
-					mayor=picos[i];
-				}
-			}
 			
 			for(int i=0; i<cimas; i++) {
-				if(picos[i]==mayor) {
+				if(picos[i]==9) {
 					cimasm++;
 				}
 			}
