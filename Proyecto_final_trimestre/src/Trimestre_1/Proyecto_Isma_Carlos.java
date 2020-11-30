@@ -21,9 +21,7 @@ public class Proyecto_Isma_Carlos {
 		int columna;
 		int cimas=0;
 		int picos[];
-		int mayor=0;
 		int cimasm=0;
-		
 		
 		System.out.println("Escribe el numero de filas que quieres que tenga el mapa:");
 		fila=sc.nextInt();
@@ -36,11 +34,6 @@ public class Proyecto_Isma_Carlos {
 		for(int i=0; i<fila; i++) {
 			for(int j=0; j<columna; j++) {
 				montana[i][j]=(int) (Math.random()*10);
-			}
-		}
-		
-		for(int i=0; i<fila; i++) {
-			for(int j=0; j<columna; j++) {
 				System.out.printf("%d ",montana[i][j]);
 			}
 			System.out.println("");
@@ -54,20 +47,12 @@ public class Proyecto_Isma_Carlos {
 				}
 			}
 		}
-		
-		if(cimas>0) {
-			for(int i=0; i<cimas; i++) {
-				if(picos[i]>mayor) {
-					mayor=picos[i];
-				}
-			}
 			
 			for(int i=0; i<cimas; i++) {
-				if(picos[i]==mayor) {
+				if(picos[i]==9) {
 					cimasm++;
 				}
 			}
-		}
 		
 		System.out.printf("hay %d cimas\n",cimas);
 		System.out.printf("Y hay %d con la cima mas alta",cimasm);
@@ -77,3 +62,4 @@ public class Proyecto_Isma_Carlos {
 	}
 
 }
+
