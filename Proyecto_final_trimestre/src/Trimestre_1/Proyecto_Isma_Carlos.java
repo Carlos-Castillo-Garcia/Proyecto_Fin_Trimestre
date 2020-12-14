@@ -54,6 +54,4 @@ public class Proyecto_Isma_Carlos {
 		sc.close();
 
 	}
-
 }
-
